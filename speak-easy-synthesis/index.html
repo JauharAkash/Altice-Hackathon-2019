@@ -1,0 +1,48 @@
+<!--
+  Atlice 2019 Hackathon
+  Group Name: Hackerman
+  Akash Jauhar
+  Azeem Paracha
+-->
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+
+    <title>Sending Messages to the User</title>
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <h1>Sending Messages to the User</h1>
+
+    <p>Enter Text and Click On the Send Button</p>
+    
+    <form>
+    <input type="text" class="txt">
+    <div>
+      <label for="rate">Rate</label><input type="range" min="0.5" max="2" value="1" step="0.1" id="rate">
+      <div class="rate-value">1</div>
+      <div class="clearfix"></div>
+    </div>
+    <div>
+      <label for="pitch">Pitch</label><input type="range" min="0" max="2" value="1" step="0.1" id="pitch">
+      <div class="pitch-value">1</div>
+      <div class="clearfix"></div>
+    </div>
+    <select>
+
+    </select>
+    <div class="controls">
+      <button id="play" type="submit">Send</button>
+    </div>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
